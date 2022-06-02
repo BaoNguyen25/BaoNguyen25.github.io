@@ -1,0 +1,68 @@
+.carousel-3d {
+  position: relative;
+  width: 1vh;
+  height: 1vh;
+  background-color: #2d4aff;
+  margin: 25vh auto;
+}
+.carousel-3d .carousel-item {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 32vh;
+  height: 32vh;
+  margin-left: -16vh;
+  margin-top: -16vh;
+  background-size: cover;
+}
+.carousel-3d .carousel-item:nth-child(1) {
+  background-image: url("../assets/chef.jpg");
+}
+.carousel-3d .carousel-item:nth-child(2) {
+  background-image: url("../assets/translator.jpg");
+}
+.carousel-3d .carousel-item:nth-child(3) {
+  background-image: url("../assets/whisper.png");
+}
+.carousel-3d .carousel-item:nth-child(4) {
+  background-image: url("../assets/compress.png");
+  background-color: #F44336;
+}
+
+.carousel-3d .carousel-item p{
+  top: 37vh;
+  position: absolute;
+  display: table-cell;
+  font-size: 0vh;
+}
+
+.left-holder {
+  z-index: -1;
+  position: absolute;
+  right : 22vh;
+  top: -5vh;
+  color: #ffffff;
+}
+
+.left-holder span{
+  font-size: 10vh;
+}
+
+#arrow-right {
+  display: none
+}
+.right-holder {
+  z-index: -1;
+  position: absolute;
+  right : -24vh;
+  top: -5vh;
+  color: #ffffff;
+}
+
+.right-holder span{
+  font-size: 10vh;
+}
+
+#right-left {
+  display: none
+}

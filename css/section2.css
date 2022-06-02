@@ -1,0 +1,17 @@
+.section2 h1{
+	font-size: 4.5vmin;
+	text-align: center;
+}
+.info {
+  font-size: 3vmin;
+  position: relative;
+  margin-top: 10vh;
+}
+
+.carousel-inner{
+	bottom: 30vh;
+}
+.section2 p{
+	font-family: 'HelveticaNeue-Light';
+
+}
